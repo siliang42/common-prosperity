@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="brand/cp-mark.svg" width="88" alt="Common Prosperity Lab">
+  <img src="brand/cp-badge.svg" width="420" alt="Common Prosperity Lab">
 </p>
 
-<h1 align="center">Common Prosperity Lab · 共同富裕社区</h1>
-
-<p align="center">量化与知识社区</p>
+<p align="center">
+  <b>共同富裕社区</b><br>
+  <sub>量化方法 · 工具 · 可复用的知识</sub>
+</p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-blue?style=flat-square" alt="License: Apache 2.0"></a>
@@ -12,6 +13,8 @@
   <a href="community/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square" alt="PRs welcome"></a>
   <img src="https://img.shields.io/github/stars/siliang42/common-prosperity-lab?style=flat-square&color=e0ad2c" alt="Stars">
 </p>
+
+---
 
 ## 关于
 
