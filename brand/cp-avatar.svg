@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Common Prosperity Lab">
+  <title>Common Prosperity Lab</title>
+  <defs>
+    <linearGradient id="avBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17130d"/>
+      <stop offset="0.55" stop-color="#0f0c08"/>
+      <stop offset="1" stop-color="#070605"/>
+    </linearGradient>
+    <radialGradient id="avGlow" cx="0.5" cy="0.44" r="0.58">
+      <stop offset="0" stop-color="#c9971f" stop-opacity="0.26"/>
+      <stop offset="0.6" stop-color="#8a5c0d" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="avGold" x1="0" y1="1" x2="0.85" y2="0">
+      <stop offset="0" stop-color="#7a4e07"/>
+      <stop offset="0.5" stop-color="#d3a02a"/>
+      <stop offset="1" stop-color="#ffe9a6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#avBg)"/>
+  <rect width="512" height="512" fill="url(#avGlow)"/>
+
+  <!-- 拾级而上：每级同宽同高，共同上升。头像版整体放大 1.35 倍，
+       外接角距圆心约 233px，仍在 256px 的圆形裁切安全区内。 -->
+  <g transform="translate(256 256) scale(1.35) translate(-256 -256)">
+    <path d="M130 346 L130 286 L214 286 L214 226 L298 226 L298 166 L382 166 L382 346 Z"
+          fill="url(#avGold)" stroke="url(#avGold)" stroke-width="26" stroke-linejoin="round"/>
+  </g>
+</svg>
